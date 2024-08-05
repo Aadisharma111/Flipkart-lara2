@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f6;
+    color: #333;
+}
+
+// Navbar
+.navbar {
+    background-color: #2874f0;
+    color: white;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: #ff8c00;
+}
+
+// Jumbotron
+.jumbotron {
+    background-color: white;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+// Footer
+.footer {
+    background-color: #2874f0;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer .text-muted {
+    color: white !important;
+}
+
+// Product Cards
+.product-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.product-card .product-details {
+    padding: 1rem;
+}
+
+.product-card .product-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card .product-price {
+    font-size: 1rem;
+    color: #ff8c00;
+    margin-bottom: 0.5rem;
+}
+
+.product-card .product-description {
+    font-size: 0.875rem;
+    color: #777;
+}
+
+// Other Utility Classes
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #2874f0;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff8c00;
+}
